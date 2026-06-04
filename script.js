@@ -20,4 +20,4 @@ function getFormInput(){
 /****************************
 main code
 ****************************/
-    OUTPUT.innerHTML += userName;
+
