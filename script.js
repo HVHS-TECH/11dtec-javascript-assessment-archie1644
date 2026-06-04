@@ -8,7 +8,6 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let userName = NAME_FIELD.value;
-    OUTPUT.innerHTML += "test";
 }
 
 
@@ -21,3 +20,4 @@ function getFormInput(){
 /****************************
 main code
 ****************************/
+    OUTPUT.innerHTML += userName;
