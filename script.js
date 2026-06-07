@@ -21,6 +21,6 @@ function start(){
 
 
     OUTPUT.innerHTML += "<p>name: ">name<"";
-    OUTPUT.innerHTML += "<p>name: ">item<"";
-    OUTPUT.innerHTML += "<p>name: ">money<"";
+    OUTPUT.innerHTML += "<p>item: ">item<"";
+    OUTPUT.innerHTML += "<p>money: ">money<"";
 }
