@@ -8,12 +8,6 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 
 
-
-
-
-
-
-
 /****************************
 main code
 ****************************/
