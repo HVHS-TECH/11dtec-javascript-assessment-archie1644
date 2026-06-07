@@ -18,9 +18,11 @@ function start(){
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField")
     let money = MONEY_FIELD.value;
-
+function getFormInput(){
 
     OUTPUT.innerHTML += "<p>name: ">name<"";
     OUTPUT.innerHTML += "<p>item: ">item<"";
     OUTPUT.innerHTML += "<p>money: ">money<"";
+}
+
 }
