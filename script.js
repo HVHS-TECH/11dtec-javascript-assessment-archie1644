@@ -16,7 +16,7 @@ function start(){
     let name = NAME_FIELD.value;
     const ITEM_FIELD = document.getElementById("itemField")
     let item = ITEM_FIELD.value;
-    const NAME_FIELD = document.getElementById("moneyField")
+    const MONEY_FIELD = document.getElementById("moneyField")
     let money = MONEY_FIELD.value;
 
 
