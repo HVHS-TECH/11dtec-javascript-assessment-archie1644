@@ -13,7 +13,7 @@ main code
 
 function start(){
 
-let itemArray = [pizza1, pizza2, pizza3, pizza4];
+
 
 
 
@@ -37,6 +37,8 @@ function getFormInput(){
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField")
     let money = Number(MONEY_FIELD.value);
+
+    let itemArray = ["pizza1", "pizza2", "pizza3", "pizza4"];
 
 OUTPUT.innerHTML += "<p>Your Receipt: </p>";
 OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
