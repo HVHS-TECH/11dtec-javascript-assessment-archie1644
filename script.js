@@ -33,9 +33,7 @@ function calculateChange(_money, _price){
 let change = _money - _price
 return change;
 }
-if (money < item){
-        OUTPUT.innerHTML += "<p>you do not have enough to buy">item<"."
-    }
+
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
@@ -43,6 +41,9 @@ function getFormInput(){
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField")
     let money = Number(MONEY_FIELD.value);
+    if (money < item){
+        OUTPUT.innerHTML += "<p>you do not have enough to buy">item<"."
+    }
 
     let itemArray = ["pizza1", "pizza2", "pizza3", "pizza4"];
 
