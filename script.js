@@ -9,10 +9,10 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 main code
 ****************************/
-displayProduct("<p>pizza1: ", 1)
-displayProduct("<p>pizza2: ", 2)
-displayProduct("<p>pizza3: ", 3)
-displayProduct("<p>pizza4: ", 4)
+displayProduct("<p>pizza1: ", 0)
+displayProduct("<p>pizza2: ", 1)
+displayProduct("<p>pizza3: ", 2)
+displayProduct("<p>pizza4: ", 3)
 
 function start(){
 
@@ -32,7 +32,7 @@ function start(){
 function calculateChange(_money, _price){
 let change = _money - _price
 return change;
-
+if money
 }
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
