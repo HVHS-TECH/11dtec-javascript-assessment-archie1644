@@ -47,7 +47,7 @@ function getFormInput(){
 OUTPUT.innerHTML += "<p>Your Receipt: </p>";
 OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
 OUTPUT.innerHTML += "food: "+itemArray[item]+"";
-OUTPUT.innerHTML += "<p>Your remaining balance: " + change(item)  + "</p>";
+OUTPUT.innerHTML += "<p>Your remaining balance: " + calculateChange(money, item)  + "</p>";
 }
 getFormInput()
 
