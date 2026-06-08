@@ -12,6 +12,22 @@ main code
 
 
 function start(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//reciept -----------------------------------------------------------------------------------
+
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
@@ -20,10 +36,10 @@ function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyField")
     let money = Number(MONEY_FIELD.value);
 
-
+OUTPUT.innerHTML += "<p>Your Receipt: </p>";
 OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
 OUTPUT.innerHTML += "<p>Item: " + item + "</p>";
-OUTPUT.innerHTML += "<p>Money: " + money + "</p>";
+OUTPUT.innerHTML += "<p>Your remaining balance: " + money-item + "</p>";
 }
 getFormInput()
 
