@@ -13,10 +13,10 @@ main code
 
 function start(){
 
-
-
-
-
+displayProduct("<p>pizza1", 1)
+displayProduct("<p>pizza2", 2)
+displayProduct("<p>pizza3", 3)
+displayProduct("<p>pizza4", 4)
 
 
 
@@ -53,5 +53,11 @@ getFormInput()
 
 
 
+}
+
+//functions
+
+function displayProduct(_name, _price){
+    OUTPUT.innerHTML += _name + _price
 }
 
