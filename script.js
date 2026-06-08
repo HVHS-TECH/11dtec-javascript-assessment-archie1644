@@ -12,6 +12,7 @@ main code
 OUTPUT.innerHTML +=  "<h1>pizza place</h1>"
 
 function start(){
+function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
     const ITEM_FIELD = document.getElementById("itemField")
@@ -20,9 +21,11 @@ function start(){
     let money = Number(MONEY_FIELD.value);
 
 
-    OUTPUT.innerHTML += "<p>name: ">name<"";
-    OUTPUT.innerHTML += "<p>item: ">item<"";
-    OUTPUT.innerHTML += "<p>money: ">money<"";
+OUTPUT.innerHTML += "<p>name: " + name + "</p>";
+OUTPUT.innerHTML += "<p>item: " + item + "</p>";
+OUTPUT.innerHTML += "<p>money: " + money + "</p>";
+}
+
 
 
 
