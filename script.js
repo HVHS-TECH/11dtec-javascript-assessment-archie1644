@@ -13,7 +13,7 @@ OUTPUT.innerHTML +=  "<h1>pizza place</h1>"
 
 function start(){
     const NAME_FIELD = document.getElementById("nameField");
-    let Username = NAME_FIELD.value;
+    let name = NAME_FIELD.value;
     const ITEM_FIELD = document.getElementById("itemField")
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField")
