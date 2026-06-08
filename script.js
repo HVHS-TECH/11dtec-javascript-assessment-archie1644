@@ -32,8 +32,10 @@ function start(){
 function calculateChange(_money, _price){
 let change = _money - _price
 return change;
-if money
 }
+if (money < item){
+        OUTPUT.innerHTML += "<p>you do not have enough to buy">item<"."
+    }
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
