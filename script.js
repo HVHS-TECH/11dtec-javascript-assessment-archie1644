@@ -13,7 +13,7 @@ main code
 
 function start(){
 
-let item = [pizza1, pizza2, pizza3, pizza4];
+let itemArray = [pizza1, pizza2, pizza3, pizza4];
 
 
 
@@ -40,7 +40,7 @@ function getFormInput(){
 
 OUTPUT.innerHTML += "<p>Your Receipt: </p>";
 OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
-OUTPUT.innerHTML += "<p>Item: " + item + "</p>";
+OUTPUT.innerHTML += "food: "+itemArray[item]+"";
 OUTPUT.innerHTML += "<p>Your remaining balance: " + money-item + "</p>";
 }
 getFormInput()
