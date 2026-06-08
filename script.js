@@ -29,7 +29,10 @@ function start(){
 
 
 //reciept -----------------------------------------------------------------------------------
-
+function calculateChange(_money, _price){
+let change = _money - _price
+return change;
+}
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
@@ -43,7 +46,7 @@ function getFormInput(){
 OUTPUT.innerHTML += "<p>Your Receipt: </p>";
 OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
 OUTPUT.innerHTML += "food: "+itemArray[item]+"";
-OUTPUT.innerHTML += "<p>Your remaining balance: " + money-item + "</p>";
+OUTPUT.innerHTML += "<p>Your remaining balance: " +  + "</p>";
 }
 getFormInput()
 
