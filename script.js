@@ -21,11 +21,11 @@ function getFormInput(){
     let money = Number(MONEY_FIELD.value);
 
 
-OUTPUT.innerHTML += "<p>name: " + name + "</p>";
-OUTPUT.innerHTML += "<p>item: " + item + "</p>";
-OUTPUT.innerHTML += "<p>money: " + money + "</p>";
+OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
+OUTPUT.innerHTML += "<p>Item: " + item + "</p>";
+OUTPUT.innerHTML += "<p>Money: " + money + "</p>";
 }
-
+getFormInput()
 
 
 
