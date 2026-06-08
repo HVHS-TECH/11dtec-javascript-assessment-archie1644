@@ -9,7 +9,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 main code
 ****************************/
-OUTPUT.innerHTML +=  "<h1>pizza place</h1>"
+
 
 function start(){
 function getFormInput(){
