@@ -5,10 +5,7 @@ javascript
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 //variables
-let pizza1Price = 1
-let pizza2Price = 2
-let pizza3Price = 3
-let pizza4Price = 4
+
 /****************************
 main code
 ****************************/
