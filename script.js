@@ -9,14 +9,14 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 main code
 ****************************/
-
+displayProduct("<p>pizza1: ", 1)
+displayProduct("<p>pizza2: ", 2)
+displayProduct("<p>pizza3: ", 3)
+displayProduct("<p>pizza4: ", 4)
 
 function start(){
 
-displayProduct("<p>pizza1", 1)
-displayProduct("<p>pizza2", 2)
-displayProduct("<p>pizza3", 3)
-displayProduct("<p>pizza4", 4)
+
 
 
 
