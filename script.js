@@ -34,5 +34,5 @@ function displayProduct(_name, _price){
 function startCart(){
     const ITEM_FIELD = document.getElementById("itemField");
     let item = ITEM_FIELD.value;
-    OUTPUT.innerHTML += "your item is: "+item+".";
+    OUTPUT.innerHTML += "your item is: "+item+". ";
 }
