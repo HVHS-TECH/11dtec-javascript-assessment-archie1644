@@ -30,3 +30,7 @@ displayProduct("<p>pizza4: ", 3)
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
+
+function startCart(){
+    OUTPUT.innerHTML += "started"
+}
