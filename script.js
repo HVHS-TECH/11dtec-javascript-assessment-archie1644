@@ -31,11 +31,11 @@ displayProduct("<p>pizza4: ", 3)
 
 //functions
 function startCart(){
-    let cartArray = ["pizza1", "pizza2", "pizza3", "pizza4"];
+let CartArray = ["pizza1", "pizza2", "pizza3", "pizza4"];
+let choice = ITEM_FIELD.value;
+OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
     let cartDisplay = [];
-    const ITEM_FIELD = document.getElementById("itemField");
-    let item = ITEM_FIELD.value;
-    cartDisplay.push(item)
+    cartDisplay.push(choice)
     OUTPUT.innerHTML += ""+cartDisplay+" has been added to cart. ";
 }
 
