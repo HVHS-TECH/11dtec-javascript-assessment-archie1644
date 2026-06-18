@@ -25,14 +25,22 @@ displayProduct("<p>pizza4: ", 3)
     const MONEY_FIELD = document.getElementById("moneyField");
      let money = Number(MONEY_FIELD.value);
     }
+
+
+
+
 //functions
+function startCart(){
+    let cartArray = [];
+    const ITEM_FIELD = document.getElementById("itemField");
+    let item = ITEM_FIELD.value;
+    cartArray.push(item)
+    OUTPUT.innerHTML += ""+cartArray+" has been added to cart. ";
+}
+
+
 
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
-function startCart(){
-    const ITEM_FIELD = document.getElementById("itemField");
-    let item = ITEM_FIELD.value;
-    OUTPUT.innerHTML += "your item is: "+item+". ";
-}
