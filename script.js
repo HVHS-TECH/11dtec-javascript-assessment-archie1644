@@ -33,10 +33,9 @@ displayProduct("<p>pizza4: ", 3)
 function startCart(){
 let CartArray = ["pizza1", "pizza2", "pizza3", "pizza4"];
 let choice = ITEM_FIELD.value;
-OUTPUT.innerHTML += "you chose: "+classArray[choice]+"";
     let cartDisplay = [];
     cartDisplay.push(choice)
-    OUTPUT.innerHTML += ""+cartDisplay+" has been added to cart. ";
+    OUTPUT.innerHTML += ""+CartArray[choice]+" has been added to cart. ";
 }
 
 
