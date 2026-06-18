@@ -16,12 +16,6 @@ displayProduct("<p>pizza2: ", 1)
 displayProduct("<p>pizza3: ", 2)
 displayProduct("<p>pizza4: ", 3)
 
-
-
-
-
-
-
 //reciept -----------------------------------------------------------------------------------
 
     function getFormInput(){
