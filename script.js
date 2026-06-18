@@ -3,7 +3,6 @@ javascript
 ****************************/
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
 //variables
 
 /****************************
@@ -33,7 +32,6 @@ OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
 OUTPUT.innerHTML += "food: "+cartArray[item]+"";
 OUTPUT.innerHTML += "<p>Your remaining balance: " + calculateChange(money, item)  + "</p>";
 }
-}
 
 
 
@@ -51,9 +49,4 @@ getFormInput()
 
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
-}
-
-function calculateChange(_money, _price){
-let change = _money - _price
-return change;
 }
