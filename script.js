@@ -24,27 +24,7 @@ displayProduct("<p>pizza4: ", 3)
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField");
      let money = Number(MONEY_FIELD.value);
-
-     
-
-OUTPUT.innerHTML += "<p>Your Receipt: </p>";
-OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
-OUTPUT.innerHTML += "food: "+cartArray[item]+"";
-OUTPUT.innerHTML += "<p>Your remaining balance: " + calculateChange(money, item)  + "</p>";
-}
-
-
-
-
-getFormInput()
-
-
-
-
-
-
-
-
+    }
 //functions
 
 function displayProduct(_name, _price){
