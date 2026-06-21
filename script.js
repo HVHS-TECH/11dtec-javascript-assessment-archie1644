@@ -8,39 +8,37 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 main code
 ****************************/
+displayProduct("<p>pizza1: ", 10);
+displayProduct("<p>pizza2: " , 20);
+displayProduct("<p>pizza3: ", 30);
+displayProduct("<p>pizza4: ", 40);
 
 
-displayProduct("<p>pizza1: ", 0)
-displayProduct("<p>pizza2: ", 1)
-displayProduct("<p>pizza3: ", 2)
-displayProduct("<p>pizza4: ", 3)
 
 //reciept -----------------------------------------------------------------------------------
-
-    function getFormInput(){
+function start(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
     const ITEM_FIELD = document.getElementById("itemField");
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField");
      let money = Number(MONEY_FIELD.value);
-    }
 
 
-
-
-//functions
-function startCart(){
-let CartArray = ["pizza1", "pizza2", "pizza3", "pizza4"];
-let choice = ITEM_FIELD.value;
-    let cartDisplay = [];
-    cartDisplay.push(choice)
-    OUTPUT.innerHTML += ""+CartArray[choice]+" has been added to cart. ";
+     let cartArray = [];
+     cartArray.push(item)
+OUTPUT.innerHTML += "<p>Name: "+name+"";
+OUTPUT.innerHTML += "<p>Your items: "+cartArray+"";
+OUTPUT.innerHTML += "<p>Your change: "+calculateChange(money-item)+"";
 }
 
-
+//functions
 
 function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
+function calculateChange(_money, _price){
+let change = _money - _price
+return change;
+}
