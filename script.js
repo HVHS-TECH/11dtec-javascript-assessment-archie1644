@@ -39,4 +39,3 @@ function pizza3(){
 function start(){
 OUTPUT.innerHTML += cartArray2;
 }
-
