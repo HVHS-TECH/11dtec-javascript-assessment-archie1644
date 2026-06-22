@@ -37,5 +37,7 @@ function pizza3(){
 }
 
 function start(){
+OUTPUT.innerHTML += "<p>Name: "+name+"";
+OUTPUT.innerHTML
 OUTPUT.innerHTML += cartArray;
 }
