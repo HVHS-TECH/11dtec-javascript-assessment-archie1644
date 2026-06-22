@@ -29,7 +29,6 @@ function start(){
      cartArray.push(item)
 OUTPUT.innerHTML += "<p>Name: "+name+"";
 OUTPUT.innerHTML += "<p>Your items: "+cartArray+"";
-OUTPUT.innerHTML += "<p>Your change: "+calculateChange(money-item)+"";
 }
 
 //functions
@@ -38,7 +37,3 @@ function displayProduct(_name, _price){
     OUTPUT.innerHTML += _name + _price
 }
 
-function calculateChange(_money, _price){
-let change = _money - _price
-return change;
-}
