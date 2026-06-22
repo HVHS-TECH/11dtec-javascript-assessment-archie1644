@@ -42,6 +42,6 @@ function start(){
 OUTPUT.innerHTML += "<p>Name: "+name+"";
 
     for(let i = 0; i < cartArray.length; i++){
-        output.innerHTML += cartArray[i] + "<br>";
+        output.innerHTML += "item "+ i +": "+cartArray[i]+"<br>";
     }
 }
