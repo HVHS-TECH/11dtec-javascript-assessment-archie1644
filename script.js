@@ -23,17 +23,17 @@ main code
 
 function pizza(){
     OUTPUT.innerHTML += "<p>pizza has been added to cart"
-    cartArray2.push("pizza")
+    cartArray2.push("pizza");
 }
 
 function pizza2(){
     OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
-    cartArray2.push("pizza2")
+    cartArray2.push("pizza2");
 }
 
 function pizza3(){
     OUTPUT.innerHTML += "<p>pizza3 has been added to cart"
-    cartArray2.push("pizza3")
+    cartArray2.push("pizza3");
 }
 
 function start(){
