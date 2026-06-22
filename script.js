@@ -37,9 +37,6 @@ function pizza3(){
 }
 
 function start(){
-    for(let i = 0; i<cartArray2.length; i++){
-        OUTPUT.innerHTML += "item "+ i +": "+cartArray2[i]+"<br>";
-    }
+OUTPUT.innerHTML += cartArray2;
 }
-
 
