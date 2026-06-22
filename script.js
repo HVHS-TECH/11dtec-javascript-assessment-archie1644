@@ -8,32 +8,32 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 main code
 ****************************/
-displayProduct("<p>pizza1: ", 10);
-displayProduct("<p>pizza2: " , 20);
-displayProduct("<p>pizza3: ", 30);
-displayProduct("<p>pizza4: ", 40);
-
-
 
 //reciept -----------------------------------------------------------------------------------
-function start(){
+
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
     const ITEM_FIELD = document.getElementById("itemField");
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField");
      let money = Number(MONEY_FIELD.value);
+     let cartArray2 = []
 
-
-     let cartArray = [];
-     cartArray.push(item)
-OUTPUT.innerHTML += "<p>Name: "+name+"";
-OUTPUT.innerHTML += "<p>Your items: "+cartArray+"";
+function pizza(){
+    OUTPUT.innerHTML += "<p>pizza has been added to cart"
+    cartArray.push("pizza")
 }
 
-//functions
-
-function displayProduct(_name, _price){
-    OUTPUT.innerHTML += _name + _price
+function pizza2(){
+    OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
+    cartArray.push("pizza2")
 }
 
+function pizza3(){
+    OUTPUT.innerHTML += "<p>pizza3 has been added to cart"
+    cartArray.push("pizza3")
+}
+
+function start(){
+    OUTPUT.innerHTML += "<p>Your cart: "+cartArray2+"";
+}
