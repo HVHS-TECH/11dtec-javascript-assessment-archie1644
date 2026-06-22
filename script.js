@@ -17,23 +17,23 @@ main code
     let item = ITEM_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField");
      let money = Number(MONEY_FIELD.value);
-     let cartArray2 = []
+     let cartArray2 = [];
 
 function pizza(){
     OUTPUT.innerHTML += "<p>pizza has been added to cart"
-    cartArray.push("pizza")
+    cartArray2.push("pizza")
 }
 
 function pizza2(){
     OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
-    cartArray.push("pizza2")
+    cartArray2.push("pizza2")
 }
 
 function pizza3(){
     OUTPUT.innerHTML += "<p>pizza3 has been added to cart"
-    cartArray.push("pizza3")
+    cartArray2.push("pizza3")
 }
 
 function start(){
-    OUTPUT.innerHTML += "<p>Your cart: "+cartArray2+"";
+    OUTPUT.innerHTML += cartArray2;
 }
