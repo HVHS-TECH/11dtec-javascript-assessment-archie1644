@@ -37,8 +37,8 @@ function start(){
 
 OUTPUT.innerHTML += "<p>Name: "+name+"";
 
-    for(let i = 0; i < cartArray.length; i++){
-        OUTPUT.innerHTML += "item "+ i +": "+cartArray[i]+"<br>";
-    }
+for(let i = 0; i < cartArray.length; i++){
+    OUTPUT.innerHTML += "item " + (i + 1) + ": " + cartArray[i] + "<br>";
+}
     console.log(cartArray);
 }
