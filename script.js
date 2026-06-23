@@ -12,8 +12,7 @@ main code
 //reciept -----------------------------------------------------------------------------------
 
 
-    const ITEM_FIELD = document.getElementById("itemField");
-    let item = ITEM_FIELD.value;
+
     const MONEY_FIELD = document.getElementById("moneyField");
      let money = Number(MONEY_FIELD.value);
 
