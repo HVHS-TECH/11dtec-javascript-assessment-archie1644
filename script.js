@@ -3,6 +3,7 @@ javascript
 ****************************/
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+     let cartArray = [];
 //variables
 
 /****************************
@@ -13,11 +14,7 @@ main code
 
 
 
-    const MONEY_FIELD = document.getElementById("moneyField");
-     let money = Number(MONEY_FIELD.value);
 
-
-     let cartArray = [];
 
 function pizza(){
     OUTPUT.innerHTML += "<p>pizza has been added to cart"
