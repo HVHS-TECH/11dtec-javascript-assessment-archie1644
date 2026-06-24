@@ -13,7 +13,6 @@ main code
 displayProduct("<p>pizza: $", 10);
 displayProduct("<p>pizza2: $", 20);
 displayProduct("<p>pizza3: $", 30);
-displayProduct("<p>pizza4: $", 40);
 
 //reciept -----------------------------------------------------------------------------------
 
@@ -32,27 +31,30 @@ function getFormInput(){
 function pizza(){
     OUTPUT.innerHTML += "<p>pizza has been added to cart"
     cartArray.push("pizza");
-    calculateChange(money-_price)
-
+    money-10;
 }
 
 function pizza2(){
     OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
     cartArray.push("pizza2");
+    money-20;
 }
 
 function pizza3(){
     OUTPUT.innerHTML += "<p>pizza3 has been added to cart"
     cartArray.push("pizza3");
+    money-30;
+
 }
 
 function start(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
 
+
 OUTPUT.innerHTML += "<h1>Your reciept:";
 OUTPUT.innerHTML += "<p>Name: "+name+"";
-OUTPUT.innerHTML += money;
+OUTPUT.innerHTML += "<p>money: "+money+"";
 
 
 for(let i = 0; i < cartArray.length; i++){
