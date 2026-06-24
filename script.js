@@ -10,12 +10,21 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 main code
 ****************************/
 
+displayProduct("<p>pizza: $", 10);
+displayProduct("<p>pizza2: $", 20);
+displayProduct("<p>pizza3: $", 30);
+displayProduct("<p>pizza4: $", 40);
+
 //reciept -----------------------------------------------------------------------------------
 
 function getFormInput(){
+    const NAME_FIELD = document.getElementById("nameField");
+    let name = NAME_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField");
     let money = MONEY_FIELD.value;
+    OUTPUT.innerHTML += "<p>your name: "+name+"";
     OUTPUT.innerHTML += "<p>your money: $"+money+"";
+
 }
 
 
@@ -23,6 +32,7 @@ function getFormInput(){
 function pizza(){
     OUTPUT.innerHTML += "<p>pizza has been added to cart"
     cartArray.push("pizza");
+
 }
 
 function pizza2(){
@@ -51,4 +61,8 @@ for(let i = 0; i < cartArray.length; i++){
 function calculateChange(_money, _price){
 let change = _money-_price
 return change;
+}
+
+function displayProduct(_item, _price){
+    OUTPUT.innerHTML += _item + _price
 }
