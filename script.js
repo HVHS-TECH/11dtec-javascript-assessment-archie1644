@@ -19,7 +19,10 @@ displayProduct("<p>pizza3: $", 30);
 function getFormInput(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
+    const MONEY_FIELD = document.getElementById("moneyField");
+    let money = Number(MONEY_FIELD.value);
     OUTPUT.innerHTML += "<p>your name: "+name+"";
+    OUTPUT.innerHTML += "<p>Your money: $"+money+"";
 }
 
 
@@ -55,9 +58,12 @@ for(let i = 0; i < cartArray.length; i++){
 }
     console.log(cartArray);
 
-OUTPUT.innerHTML += "<p>price: $"+cartArray.length*30+"";
-OUTPUT.innerHTML += "<p>your change: $"+money-cartArray.length*30+"";
+let price = cartArray.length*30;
+let change = money-price;
+OUTPUT.innerHTML += "<p>price: $"+price+"";
+OUTPUT.innerHTML += "<p>your change: $"+change+"";
 
+console.log(change);
 }
 
 function displayProduct(_item, _price){
