@@ -11,7 +11,8 @@ main code
 ****************************/
 
 //reciept -----------------------------------------------------------------------------------
-
+    const MONEY_FIELD = document.getElementById("moneyField");
+    let money = MONEY_FIELD.value;
 
 
 
@@ -34,10 +35,9 @@ function pizza3(){
 function start(){
     const NAME_FIELD = document.getElementById("nameField");
     let name = NAME_FIELD.value;
-    const 
 
+OUTPUT.innerHTML += "<h1>Your reciept:";
 OUTPUT.innerHTML += "<p>Name: "+name+"";
-
 for(let i = 0; i < cartArray.length; i++){
     OUTPUT.innerHTML += "item " + (i + 1) + ": " + cartArray[i] + "<br>";
 }
