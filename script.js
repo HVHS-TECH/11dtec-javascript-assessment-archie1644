@@ -21,6 +21,7 @@ function getFormInput(){
     let name = NAME_FIELD.value;
     const MONEY_FIELD = document.getElementById("moneyField");
     let money = Number(MONEY_FIELD.value);
+    OUTPUT.innerHTML += "<h1>Order Information:"
     OUTPUT.innerHTML += "<p>your name: "+name+"";
     OUTPUT.innerHTML += "<p>Your money: $"+money+"";
 }
