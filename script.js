@@ -11,9 +11,12 @@ main code
 ****************************/
 
 //reciept -----------------------------------------------------------------------------------
+
+function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyField");
     let money = MONEY_FIELD.value;
-
+    OUTPUT.innerHTML += "<p>your money: $"+money+"";
+}
 
 
 
@@ -42,4 +45,10 @@ for(let i = 0; i < cartArray.length; i++){
     OUTPUT.innerHTML += "item " + (i + 1) + ": " + cartArray[i] + "<br>";
 }
     console.log(cartArray);
+}
+
+
+function calculateChange(_money, _price){
+let change = _money-_price
+return change;
 }
