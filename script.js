@@ -32,6 +32,7 @@ function getFormInput(){
 function pizza(){
     OUTPUT.innerHTML += "<p>pizza has been added to cart"
     cartArray.push("pizza");
+    calculateChange(money-_price)
 
 }
 
@@ -51,6 +52,9 @@ function start(){
 
 OUTPUT.innerHTML += "<h1>Your reciept:";
 OUTPUT.innerHTML += "<p>Name: "+name+"";
+OUTPUT.innerHTML += money;
+
+
 for(let i = 0; i < cartArray.length; i++){
     OUTPUT.innerHTML += "item " + (i + 1) + ": " + cartArray[i] + "<br>";
 }
