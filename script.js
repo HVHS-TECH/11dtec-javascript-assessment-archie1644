@@ -62,6 +62,8 @@ for(let i = 0; i < cartArray.length; i++){
 let price = cartArray.length*30;
 let change = money-price;
 OUTPUT.innerHTML += "<p>price: $"+price+"";
+
+
 OUTPUT.innerHTML += "<p>your change: $"+change+"";
 
 console.log(change);
