@@ -53,7 +53,6 @@ function start(){
 OUTPUT.innerHTML += "<h1>Your reciept:";
 OUTPUT.innerHTML += "<p>Name: "+name+"";
 
-
 for(let i = 0; i < cartArray.length; i++){
     OUTPUT.innerHTML += "item " + (i + 1) + ": " + cartArray[i] + "<br>";
 }
@@ -62,7 +61,16 @@ for(let i = 0; i < cartArray.length; i++){
 let price = cartArray.length*30;
 let change = money-price;
 OUTPUT.innerHTML += "<p>price: $"+price+"";
-OUTPUT.innerHTML += "<p>your change: $"+change+"";
+ if (money >= price){
+        OUTPUT.innerHTML += "<p>your change: $"+change+"";
+    }
+    else{
+        OUTPUT.innerHTML += "<p>insufficient funds";
+    }
+
+
+
+
 console.log(change);
 }
 
