@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>pizza place</title>
+    <title>Pizza Place</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<div class="container">
 
+    <h1 class="title">🍕 Pizza Place</h1>
 
+    <form class="customerForm" onsubmit="return false;">
 
-<h1>pizza place</h1>
-<div id="spaceForJavaScriptOutput"></div>
-<!--*************************************************************
-  FORMS
-**************************************************************-->
+        <label for="nameField">Name:</label>
+        <input type="text" id="nameField" name="formName" placeholder="Name">
 
-<form onsubmit="return false;">
-<label for=":formName">Name:</label>
-<input type="text" id="nameField" name="formName" placeholder="Name">
+        <label for="moneyField">Money:</label>
+        <input type="text" id="moneyField" name="formName" placeholder="Money">
 
-<label for=":formName">Money:</label>
-<input type="text" id="moneyField" name="formName" placeholder="Money">
-<input type="submit" onclick="getFormInput()"></form>
-<h6>---------------------------------------------------------------------------------------------------------------------------</h6>
+        <input type="submit" value="Submit" onclick="getFormInput()">
 
+    </form>
 
+    <hr>
 
-<!--*************************************************************
-=
-**************************************************************-->
+    <div class="menu">
 
+        <div class="pizzaCard">
+            <h2>🍕 Pizza</h2>
+            <p>$30</p>
+            <button onclick="pizza()">Add to Cart</button>
+        </div>
 
-<h1>pizza</h1><button onClick="pizza()">add to cart</button>
-<h1>pizza2</h1><button onClick="pizza2()">add to cart</button>
-<h1>pizza3</h1><button onClick="pizza3()">add to cart</button>
-<h1>------------------------------------</h1>
-<button onClick="start()">place order</button>
+        <div class="pizzaCard">
+            <h2>🍕 Pizza 2</h2>
+            <p>$30</p>
+            <button onclick="pizza2()">Add to Cart</button>
+        </div>
 
-  </div>
+        <div class="pizzaCard">
+            <h2>🍕 Pizza 3</h2>
+            <p>$30</p>
+            <button onclick="pizza3()">Add to Cart</button>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="receipt">
+
+        <h2>Receipt</h2>
+
+        <div id="spaceForJavaScriptOutput"></div>
+
+    </div>
+
+    <button class="orderButton" onclick="start()">Place Order</button>
+
+</div>
+
 <script src="script.js"></script>
+
 </body>
 </html>
-
-
