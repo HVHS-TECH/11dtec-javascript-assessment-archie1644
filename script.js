@@ -10,9 +10,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 main code
 ****************************/
 
-displayProduct("<p>pizza: $", 30);
-displayProduct("<p>pizza2: $", 30);
-displayProduct("<p>pizza3: $", 30);
+
 
 //reciept -----------------------------------------------------------------------------------
 
@@ -72,8 +70,4 @@ OUTPUT.innerHTML += "<p>price: $"+price+"";
 
 
 console.log(change);
-}
-
-function displayProduct(_item, _price){
-    OUTPUT.innerHTML += _item + _price
 }
