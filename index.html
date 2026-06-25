@@ -1,48 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pizza place</title>
+</head>
 <body>
-<link rel="stylesheet" href="style.css">
-<div class="wrapper">
 
-<h1>🍕 Pizza Place</h1>
 
-<div id="spaceforjavascriptoutput" class="receipt"></div>
 
-<form class="customerForm">
-<label for="formName">Name:</label>
-<input type="text" id="formName" name="formName" placeholder="Name">
 
-<label for="money">Money:</label>
+<h1>pizza place</h1>
+<div id="spaceForJavaScriptOutput"></div>
+<!--*************************************************************
+  FORMS
+**************************************************************-->
+
+<form onsubmit="return false;">
+<label for=":formName">Name:</label>
+<input type="text" id="nameField" name="formName" placeholder="Name">
+
+<label for=":formName">Money:</label>
 <input type="text" id="moneyField" name="formName" placeholder="Money">
+<input type="submit" onclick="getFormInput()"></form>
+<h6>---------------------------------------------------------------------------------------------------------------------------</h6>
 
-<input type="submit" onclick="getFormInput()">
-</form>
 
-<hr>
 
-<div class="menu">
+<!--*************************************************************
+=
+**************************************************************-->
 
-<div class="pizzaCard">
-<h1>Pizza</h1>
-<button onclick="pizza()">Add to Cart</button>
-</div>
 
-<div class="pizzaCard">
-<h1>Pizza2</h1>
-<button onclick="pizza2()">Add to Cart</button>
-</div>
+<h1>pizza</h1><button onClick="pizza()">add to cart</button>
+<h1>pizza2</h1><button onClick="pizza2()">add to cart</button>
+<h1>pizza3</h1><button onClick="pizza3()">add to cart</button>
+<h1>------------------------------------</h1>
+<button onClick="start()">place order</button>
 
-<div class="pizzaCard">
-<h1>Pizza3</h1>
-<button onclick="pizza3()">Add to Cart</button>
-</div>
-
-</div>
-
-<hr>
-
-<button class="orderButton" onclick="start()">Place Order</button>
-
-</div>
-
+  </div>
 <script src="script.js"></script>
-
 </body>
+</html>
+
+
