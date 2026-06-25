@@ -63,8 +63,15 @@ let price = cartArray.length*30;
 let change = money-price;
 OUTPUT.innerHTML += "<p>price: $"+price+"";
 
+  if (money >= price){
+    \OUTPUT.innerHTML += "<p>your change: $"+change+"";
+    }
+    else{
+        OUTPUT.innerHTML += "<p>insufficient funds"
+    }
 
-OUTPUT.innerHTML += "<p>your change: $"+change+"";
+
+
 
 console.log(change);
 }
