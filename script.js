@@ -1,7 +1,7 @@
 /****************************
 javascript
 ****************************/
-
+console.log("running the pizza place")
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
      let cartArray = [];
 //variables
