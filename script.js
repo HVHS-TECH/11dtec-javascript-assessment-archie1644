@@ -56,7 +56,7 @@ for(let i = 0; i < cartArray.length; i++){
 }
     console.log(cartArray);
 
-let price = cartArray.length*299.56;
+let price = cartArray.length*599.22;
 let change = money-price;
 OUTPUT.innerHTML += "<p>price: $"+price+"";
  if (money >= price){
