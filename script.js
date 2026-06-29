@@ -32,12 +32,12 @@ function pizza(){
 }
 
 function pizza2(){
-    OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
+    OUTPUT.innerHTML += "<p>pizza 2 has been added to cart"
     cartArray.push("pizza2");
 }
 
 function pizza3(){
-    OUTPUT.innerHTML += "<p>pizza3 has been added to cart"
+    OUTPUT.innerHTML += "<p>pizza 3 has been added to cart"
     cartArray.push("pizza3");
 
 }
@@ -56,7 +56,7 @@ for(let i = 0; i < cartArray.length; i++){
 }
     console.log(cartArray);
 
-let price = cartArray.length*30;
+let price = cartArray.length*299.56;
 let change = money-price;
 OUTPUT.innerHTML += "<p>price: $"+price+"";
  if (money >= price){
