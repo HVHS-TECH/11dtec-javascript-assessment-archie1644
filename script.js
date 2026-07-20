@@ -63,7 +63,7 @@ OUTPUT.innerHTML += "<p>price: $"+price+"";
         OUTPUT.innerHTML += "<p>your change: $"+change+"";
     }
 
-    else (money = null){
+    else if (money = null){
         OUTPUT.innerHTML += "<p>input cash balance";
     }
 
