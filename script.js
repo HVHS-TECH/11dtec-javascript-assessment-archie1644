@@ -49,7 +49,13 @@ function start(){
     let money = Number(MONEY_FIELD.value);
 
 OUTPUT.innerHTML += "<h1>Your reciept:";
-OUTPUT.innerHTML += "<p>Name: "+name+"";
+if (name = 0){
+    OUTPUT.innerHTML += "<p>please input a name";
+}
+    else{
+        OUTPUT.innerHTML += "<p>Name: "+name+"";
+    }
+
 
 for(let i = 0; i < cartArray.length; i++){
     OUTPUT.innerHTML += "item " + (i + 1) + ": " + cartArray[i] + "<br>";
