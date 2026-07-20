@@ -62,6 +62,11 @@ OUTPUT.innerHTML += "<p>price: $"+price+"";
  if (money >= price){
         OUTPUT.innerHTML += "<p>your change: $"+change+"";
     }
+
+    else (money = null){
+        OUTPUT.innerHTML += "<p>input cash balance";
+    }
+
     else{
         OUTPUT.innerHTML += "<p>insufficient funds";
     }
