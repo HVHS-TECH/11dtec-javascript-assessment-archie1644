@@ -20,7 +20,13 @@ function getFormInput(){
     const MONEY_FIELD = document.getElementById("moneyField");
     let money = Number(MONEY_FIELD.value);
     OUTPUT.innerHTML += "<h1>Order Information:"
-    OUTPUT.innerHTML += "<p>your name: "+name+"";
+
+if (name == 0){
+    OUTPUT.innerHTML += "<p>please input a name";
+}
+    else{
+        OUTPUT.innerHTML += "<p>Your name: "+name+"";
+    }
     OUTPUT.innerHTML += "<p>Your money: $"+money+"";
 }
 
@@ -49,7 +55,7 @@ function start(){
     let money = Number(MONEY_FIELD.value);
 
 OUTPUT.innerHTML += "<h1>Your reciept:";
-if (name = 0){
+if (name == 0){
     OUTPUT.innerHTML += "<p>please input a name";
 }
     else{
@@ -70,7 +76,7 @@ OUTPUT.innerHTML += "<p>cost: $"+price+"";
     }
 
     else if (money == 0){
-        OUTPUT.innerHTML += "<p>input cash balance please";
+        OUTPUT.innerHTML += "<p>input money balance please";
     }
 
     else{
