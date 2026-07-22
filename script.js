@@ -76,9 +76,15 @@ OUTPUT.innerHTML += "<p>cost: $"+price+"";
     }
 
     else if (money == 0){
-        OUTPUT.innerHTML += "<p>Input money balance";
+        OUTPUT.innerHTML += "<p>input money balance please";
     }
 
     else{
         OUTPUT.innerHTML += "<p>insufficient funds";
     }
+
+
+
+
+console.log(change);
+}
