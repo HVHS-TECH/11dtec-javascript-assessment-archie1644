@@ -76,7 +76,7 @@ OUTPUT.innerHTML += "<p>cost: $"+price+"";
     }
 
     else if (money == 0){
-        OUTPUT.innerHTML += "<p>input money balance please";
+        OUTPUT.innerHTML += "<p>Input money balance";
     }
 
     else{
