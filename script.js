@@ -82,9 +82,3 @@ OUTPUT.innerHTML += "<p>cost: $"+price+"";
     else{
         OUTPUT.innerHTML += "<p>insufficient funds";
     }
-
-
-
-
-console.log(change);
-}
