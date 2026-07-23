@@ -27,7 +27,7 @@ if (name == 0){
     else{
         OUTPUT.innerHTML += "<p>Your name: "+name+"";
 
-        if (money == 0){
+        if (money <= 0){
         OUTPUT.innerHTML += "<p>u have no money";
         }
 
