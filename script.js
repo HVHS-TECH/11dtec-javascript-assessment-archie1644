@@ -33,17 +33,17 @@ if (name == 0){
 
 
 function pizza(){
-    OUTPUT.innerHTML += "<p>pizza has been added to cart"
+    OUTPUT.innerHTML += "<p>good pizza has been added to cart"
     cartArray.push("pizza");
 }
 
 function pizza2(){
-    OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
+    OUTPUT.innerHTML += "<p>tasty pizza has been added to cart"
     cartArray.push("pizza2");
 }
 
 function pizza3(){
-    OUTPUT.innerHTML += "<p>pizza 3 has been added to cart"
+    OUTPUT.innerHTML += "<p>other pizza has been added to cart"
     cartArray.push("pizza3");
 
 }
