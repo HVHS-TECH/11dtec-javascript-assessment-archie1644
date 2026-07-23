@@ -70,7 +70,12 @@ for(let i = 0; i < cartArray.length; i++){
 
 let price = cartArray.length*599.22;
 let change = money-price;
-OUTPUT.innerHTML += "<p>cost: $"+price+"";
+if (price == 0){
+    OUTPUT.innerHTML += "<p>add stuff 2 cart plz";
+}
+else{
+    OUTPUT.innerHTML += "<p>cost: $"+price+"";
+    
  if (money >= price){
         OUTPUT.innerHTML += "<p>your change: $"+change+"";
     }
@@ -82,6 +87,10 @@ OUTPUT.innerHTML += "<p>cost: $"+price+"";
     else{
         OUTPUT.innerHTML += "<p>insufficient funds";
     }
+}
+
+
+
 
 
 
