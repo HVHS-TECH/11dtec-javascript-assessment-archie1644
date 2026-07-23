@@ -22,13 +22,13 @@ function getFormInput(){
     OUTPUT.innerHTML += "<h1>Order Information:"
 
 if (name == 0){
-    OUTPUT.innerHTML += "<p>please input a name";
+    OUTPUT.innerHTML += "<p>input ur name plz";
 }
     else{
         OUTPUT.innerHTML += "<p>Your name: "+name+"";
 
         if (money <= 0){
-        OUTPUT.innerHTML += "<p>u have no money";
+        OUTPUT.innerHTML += "<p>input money plz";
         }
 
         else{
