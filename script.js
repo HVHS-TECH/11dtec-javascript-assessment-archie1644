@@ -34,17 +34,17 @@ if (name == 0){
 
 function good_pizza(){
     OUTPUT.innerHTML += "<p>good pizza has been added to cart"
-    cartArray.push("pizza");
+    cartArray.push("good pizza");
 }
 
 function tasty_pizza(){
     OUTPUT.innerHTML += "<p>tasty pizza has been added to cart"
-    cartArray.push("pizza2");
+    cartArray.push("tasty pizza");
 }
 
 function other_pizza(){
     OUTPUT.innerHTML += "<p>other pizza has been added to cart"
-    cartArray.push("pizza3");
+    cartArray.push("other pizza");
 
 }
 
