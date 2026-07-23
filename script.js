@@ -26,8 +26,9 @@ if (name == 0){
 }
     else{
         OUTPUT.innerHTML += "<p>Your name: "+name+"";
+        OUTPUT.innerHTML += "<p>Your money: $"+money+"";
     }
-    OUTPUT.innerHTML += "<p>Your money: $"+money+"";
+
 }
 
 
