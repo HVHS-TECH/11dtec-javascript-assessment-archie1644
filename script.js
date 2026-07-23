@@ -32,17 +32,17 @@ if (name == 0){
 
 
 
-function pizza(){
+function good_pizza(){
     OUTPUT.innerHTML += "<p>good pizza has been added to cart"
     cartArray.push("pizza");
 }
 
-function pizza2(){
+function tasty_pizza(){
     OUTPUT.innerHTML += "<p>tasty pizza has been added to cart"
     cartArray.push("pizza2");
 }
 
-function pizza3(){
+function other_pizza(){
     OUTPUT.innerHTML += "<p>other pizza has been added to cart"
     cartArray.push("pizza3");
 
