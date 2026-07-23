@@ -38,7 +38,7 @@ function pizza(){
 }
 
 function pizza2(){
-    OUTPUT.innerHTML += "<p>pizza 2 has been added to cart"
+    OUTPUT.innerHTML += "<p>pizza2 has been added to cart"
     cartArray.push("pizza2");
 }
 
