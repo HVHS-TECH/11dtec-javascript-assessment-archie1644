@@ -26,7 +26,15 @@ if (name == 0){
 }
     else{
         OUTPUT.innerHTML += "<p>Your name: "+name+"";
-        OUTPUT.innerHTML += "<p>Your money: $"+money+"";
+
+        if (money == 0){
+        OUTPUT.innerHTML += "<p>u have no money";
+        }
+
+        else{
+            OUTPUT.innerHTML += "<p>Your balance: "+money+"";
+        }
+
     }
 
 }
